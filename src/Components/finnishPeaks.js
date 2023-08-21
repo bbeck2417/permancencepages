@@ -4,35 +4,33 @@ import ig from "../instagram.png";
 import i from "../infinity.png";
 import t from "../hour-glass.png";
 
-
-
-
 function FinnishPeaks() {
   return (
     <div className="topFlex">
-    <div className="App">
-      <header className="App-header">
+      <div className="App">
         <div className="font-face-tangerine">
-          
+          <div className="fade-component">
             <div>
-              <div className="aboutMe">
-                <h2>Minusta</h2>
+              <div>
+                <div className="aboutMe">
+                  <h2>Minusta</h2>
+                </div>
+                <div className="poet">
+                  <h4>Olen runoilija luonnon kautta</h4>
+                </div>
               </div>
-              <div className="poet">
-                <h4>Olen runoilija luonnon kautta</h4>
-              </div>
-            </div>
 
-            <div className="content">
-              <p>
-              Nautin matkustamisesta ympäri maailmaa elämää noudattaen.
-              Etsitkö luontoa huipussaan, runsaasti
-              vuorovaikutuksia. Vuorovaikutukset esitetään vain kyseisessä kohdassa
-              hetkessä ja paikassa. Jotta voisin vangita hetken
-              tunne ja ajatus...
-              </p>
+              <div className="content">
+                <p>
+                  Nautin matkustamisesta ympäri maailmaa elämää noudattaen.
+                  Etsitkö luontoa huipussaan, vuorovaikutuksen
+                  yltäkylläisyydestä. Vuorovaikutuksia esitetään vain tietyllä
+                  hetkellä ja paikassa. Jotta voisin vangita hetken tunteesta ja
+                  ajattelusta...
+                </p>
+              </div>
             </div>
-          
+          </div>
 
           <div className="ig">
             <div>
@@ -46,16 +44,16 @@ function FinnishPeaks() {
             </div>
           </div>
         </div>
-      </header>
-      <footer className="needSpace">
-        <p>
-          Copyright from <img src={i} alt="lift off" />{" "}
-          <img src={t} alt="this is taking forever" />{" "}
-          <img src={i} alt="what is that?" />.{" "}
-        </p>
-      </footer>
+
+        <footer className="needSpace">
+          <p>
+            Copyright from <img src={i} alt="lift off" />{" "}
+            <img src={t} alt="this is taking forever" />{" "}
+            <img src={i} alt="what is that?" />.{" "}
+          </p>
+        </footer>
+      </div>
     </div>
-  </div>
   );
 }
 
