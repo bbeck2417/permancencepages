@@ -88,9 +88,10 @@
 	top:1px;
 }
 .fade-component {
-  /* animation-duration: ease 13s ; */
+  /* animation-duration: ease 17s ; */
   /* animation-name: fadeIn; */
-  animation: fadeIn 13s ease-in-out  infinite alternate;
+  animation: fadeIn 17s linear  infinite alternate;
+  
   /* animation-iteration-count: infinite;
   animation-direction: alternate; */
 }

@@ -14,7 +14,7 @@ function Transition() {
   React.useEffect(() => {
     const timerId = setInterval(
       () => setIndex((i) => (i + 1) % items.length), // <-- increment index
-      13000
+      17000
     );
     return () => clearInterval(timerId);
   }, []);
