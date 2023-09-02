@@ -14,7 +14,7 @@ function FrenchPeaks() {
               <h2>Sur moi</h2>
             </div>
             <div className="poet">
-              <h4>Je suis poète de nature</h4>
+              <h4>Je sauis poète par Nature</h4>
             </div>
           </div>
 

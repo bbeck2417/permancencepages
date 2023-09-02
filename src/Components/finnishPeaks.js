@@ -16,7 +16,7 @@ function FinnishPeaks() {
                   <h2>Minusta</h2>
                 </div>
                 <div className="poet">
-                  <h4>Olen runoilija luonnon kautta</h4>
+                  <h4>Olen runoilija luonteeltani</h4>
                 </div>
               </div>
 
