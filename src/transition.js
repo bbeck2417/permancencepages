@@ -15,7 +15,7 @@ function Transition() {
     const timerId = setInterval(
       () => setIndex((i) => (i + 1) % items.length), // <-- increment index
       /*App.css must be updated with timing*/
-      17000
+      30000
     );
     return () => clearInterval(timerId);
   }, []);
