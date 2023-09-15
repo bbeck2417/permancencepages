@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import '../src/App.css';
 import playButton from '../src/play.png';
-
-// Import your audio file
-import waves from '../src/waves.mp3';
+import waves from '../src/doDoodoo.mp3'
 
 class BackgroudMusic extends Component {
 // Create state
