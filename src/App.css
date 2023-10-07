@@ -8,12 +8,13 @@
   /* font-size: calc(10px + 2vmin); */
   
   justify-content: space-between;
-  background-image: url(./background.jpg);
-  background-position: center center;
+  background-image: url(./vcompress_3.mov);
+	  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: none;
+  margin-top: none;
   
 }
 .font-face-tangerine {
@@ -67,26 +68,7 @@
   background-repeat: no-repeat;
 }
 
-.myButton {
-	background-color:transparent;
-  border: none;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family: 'Tangerine';
-	font-size:24px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #5b6178;
-}
-.myButton:hover {
-	background-color:transparent;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+
 .fade-component {
   /* animation-duration: ease 30s ; */
   /* animation-name: fadeIn; */
